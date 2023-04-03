@@ -1,9 +1,12 @@
-
+import SvgAnimation from "./SvgAnimation"
 
 function App() {
   return (
     <>
-    <h2>Cookie Website</h2>
+      <h1 className="tagLine">
+        Have a <br/>Cookie.
+      </h1>
+      <SvgAnimation/>
     </>
   );
 }

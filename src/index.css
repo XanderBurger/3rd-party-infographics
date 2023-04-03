@@ -1,1 +1,29 @@
+@import-normalize;
 
+@font-face {
+    font-family: "JetBrainsMono-Variable";
+    src: local("JetBrainsMono-Variable"), url(./assets/JetBrainsMono-Variable.ttf) format('opentype');
+  }
+  
+body{
+    background-color: #100C16;
+}
+
+
+h1{
+    font-family: "JetBrainsMono-Variable";
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 110%;
+}
+
+.tagLine{
+    position: sticky;
+}
+
+.cookieSvg{
+    position: relative;
+    top: -170px
+}
