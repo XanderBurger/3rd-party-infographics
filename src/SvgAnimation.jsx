@@ -6,9 +6,10 @@ export default function MyComponent() {
   const { scrollYProgress } = useScroll()
 
   return (
-    <animated.div style={{ opacity: 1 - scrollYProgress}}>
+    <div className="svgDiv">
       <img className="cookieSvg" alt="cookie svg" src={cookieSvg}/>
-    </animated.div>
+    </div>
+  
   )
 }
 

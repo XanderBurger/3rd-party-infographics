@@ -7,8 +7,13 @@
   
 body{
     background-color: #100C16;
+    display: inherit;
 }
 
+.main{
+    display: grid;
+    justify-content: center;
+}
 
 h1{
     font-family: "JetBrainsMono-Variable";
@@ -19,11 +24,11 @@ h1{
     line-height: 110%;
 }
 
-.tagLine{
-    position: sticky;
-}
 
-.cookieSvg{
-    position: relative;
-    top: -170px
+.svgDiv{
+    display: grid;
+    justify-content: center;
+    position: relative; 
+    top: -160px;
+    z-index: 2;
 }
