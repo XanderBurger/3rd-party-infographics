@@ -6,29 +6,57 @@
   }
   
 body{
-    background-color: #100C16;
-    display: inherit;
+    background-color: #131023;
 }
 
 .main{
     display: grid;
+    text-align: center;
     justify-content: center;
+    grid-template-columns: 100%;
+    border: solid 2pt #B2519E
 }
 
 h1{
     font-family: "JetBrainsMono-Variable";
-    color: white;
+    color: #B2519E;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 710;
     font-size: 72px;
     line-height: 110%;
+}
+
+p{
+    font-family: "JetBrainsMono-Variable";
+    color: #B2519E
 }
 
 
 .svgDiv{
     display: grid;
     justify-content: center;
-    position: relative; 
-    top: -160px;
-    z-index: 2;
+    z-index: 1;
+}
+
+.infoGraphic{
+    border-top: solid 2pt #B2519E;
+}
+
+.graphicsContainer{
+    display: grid;
+    justify-content: center; 
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 450px));
+}
+
+.graphicsContainer > * {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.graphicsContainer > * img {
+    width: 100%;
+    padding-bottom: 1rem;
 }
