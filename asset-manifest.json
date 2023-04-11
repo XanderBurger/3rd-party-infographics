@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/3rd-party-infographics/static/css/main.c3bbe39a.css",
+    "main.js": "/3rd-party-infographics/static/js/main.da8cb335.js",
+    "static/media/JetBrainsMono-Variable.ttf": "/3rd-party-infographics/static/media/JetBrainsMono-Variable.b4b9cd94afe6a3c8c4af.ttf",
+    "static/media/infoGraph2.svg": "/3rd-party-infographics/static/media/infoGraph2.7fa30671f6e154705c88750bd57b9f14.svg",
+    "static/media/infoGraph3.svg": "/3rd-party-infographics/static/media/infoGraph3.838e66d37f5cbdea885026a51663e7bd.svg",
+    "static/media/infoGraph1.svg": "/3rd-party-infographics/static/media/infoGraph1.34966b8e1a93a9edf60621215226bae8.svg",
+    "index.html": "/3rd-party-infographics/index.html",
+    "main.c3bbe39a.css.map": "/3rd-party-infographics/static/css/main.c3bbe39a.css.map",
+    "main.da8cb335.js.map": "/3rd-party-infographics/static/js/main.da8cb335.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3bbe39a.css",
+    "static/js/main.da8cb335.js"
+  ]
+}
