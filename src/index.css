@@ -14,7 +14,7 @@ body{
     text-align: center;
     justify-content: center;
     grid-template-columns: 100%;
-    border: solid 2pt #B2519E
+    /* border: solid 2pt #B2519E */
 }
 
 h1{
@@ -46,11 +46,12 @@ p{
     display: grid;
     justify-content: center; 
     align-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 450px));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 450px));
 }
 
 .graphicsContainer > * {
     display: grid;
+    text-align: left;
     justify-content: center;
     align-items: center;
     padding: 1em;
@@ -58,5 +59,6 @@ p{
 
 .graphicsContainer > * img {
     width: 100%;
+    max-height: 289px;
     padding-bottom: 1rem;
 }
